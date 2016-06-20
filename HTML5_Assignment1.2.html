@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+	<title>Learning HTML5 Assignment1.2</title>
+	<style type="text/css">
+	body
+		{
+			background-color: lightgrey;
+		}
+		header
+		{
+			position:relative;
+		
+			left:40px;
+		}
+		h1
+		{
+			color:#004d66;
+			font-family:calibri;
+		}
+		p
+		{
+			color:grey;
+			font-family:calibri;
+		}
+		h3
+		{
+			color:grey;
+			font-family:calibri;
+		}
+		span
+		{
+			color:#004d66;
+		}
+
+		aside
+		{
+			height:400px;
+			width: 550px;
+			float:right;
+			background-color:#004d66; 
+			padding: 5px;
+			margin: 5px;
+			position: absolute;
+			right:30px;
+			top:130px;
+		}
+		section
+		{
+			height:400px;
+			width: 550px;
+			float: left;
+			padding: 5px;
+			margin: 5px;
+			position: absolute;
+			left:30px;
+		}
+
+		#asideprop
+		{
+			color:white;
+			margin: 5px;
+			padding: 5px;
+		}
+		#signupbutton
+		{
+			width:410px;
+			height:150px;
+			border-radius:2px;
+			border: 2px solid orange;
+			font-family:Calibri;
+			color:white;
+			background-color: #004d66;
+			font-weight: bold;
+			border-radius: 10px;
+			position: absolute;
+			left:100px;
+			top:120px;
+			cursor: pointer;
+		}
+		#logbutton
+		{
+			width:410px;
+			height:150px;
+			border-radius:2px;
+			border: 2px solid #004d66;
+			font-family:Calibri;
+			color:#004d66;
+			background-color: #e6e6e6;
+			font-weight: bold;
+			border-radius: 10px;
+			position: absolute;
+			left:100px;
+			top:130px;
+			cursor: pointer;
+		}
+		#logbutton:hover
+		{
+			background-color: white;
+		}
+		#signupbutton:hover
+		{
+			background-color: blue;
+		}
+	
+	</style>
+</head>
+<body>
+	<header>
+		<h1>ENTER THE SYSTEM</h1>
+		<p>Its necessary to login in Your account in order to sign up for a course.</p>
+	</header>
+
+	<section>
+		<h3>ARE YOU NEW? <span>REGISTER</span></h3>
+		<a href="loginpage.html"><button id="logbutton">Login</button></a>
+	</section>
+
+	<aside>
+		<h3 id="asideprop">ALREADY A STUDENT? LOGIN</h3>
+		<a href="signuppage.html"><button id="signupbutton">Register</button></a>
+	</aside>
+
+
+</body>
+</html>
